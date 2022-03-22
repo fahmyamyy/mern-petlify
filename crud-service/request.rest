@@ -1,0 +1,24 @@
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "Amyganz",
+    "password": "223d2ecd0cce03f2545ad6ec5d94d65d2a94592308170a838a9e40f30e6fa270"
+}
+
+###
+
+GET http://localhost:8080/users
+
+###
+
+PUT http://localhost:8080/users/61
+Content-Type: application/json
+
+{
+    "_id": "61",
+    "username": "Amyganz",
+    "email": "testEdit",
+    "password": "223d2ecd0cce03f2545ad6ec5d94d65d2a94592308170a838a9e40f30e6fa270"
+
+}
