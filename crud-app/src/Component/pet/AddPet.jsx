@@ -162,13 +162,12 @@ const AddPet = () => {
               sx={{ width: "100px", height: "100px" }}
               alt={localStorage.getItem("Name")}
               src="/static/images/avatar/1.jpg"
-              onClick={() => this.fileInput.click()}
             >
-              <input
+              {/* <input
                 type="file"
                 style={{ display: "none" }}
                 ref={this.fileInput}
-              />
+              /> */}
             </Avatar>
           </Grid>
           <Grid item xs={12}>

@@ -130,10 +130,10 @@ const Loveds = () => {
           </Grid>
         ))}
       </Grid>
-      <Fab style={style} color="primary" aria-label="add" variant="extended">
+      {/* <Fab style={style} color="primary" aria-label="add" variant="extended">
         <AddIcon />
         Open for Adoption!
-      </Fab>
+      </Fab> */}
     </Container>
   );
 };
